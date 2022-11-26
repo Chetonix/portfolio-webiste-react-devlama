@@ -13,7 +13,9 @@ function ProductList() {
         <div className="pl-list">
             {products.map(product=> {
                 const {id, img, link} = product;
+                return (
                 <Product key={id} {...product} />
+                )
             })}
         </div>
     </div>
