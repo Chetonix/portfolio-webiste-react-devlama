@@ -28,3 +28,10 @@
 .p-desc {
     font-weight: 400;
 }
+
+.pl-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
