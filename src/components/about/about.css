@@ -15,7 +15,7 @@
     align-items: flex-start;
     justify-content: center;
     height: 100%;
-    gap: 30px;
+    gap: 50px;
 }
 
 .a-content {
@@ -49,4 +49,55 @@
     width: 120px;
     height: 120px;
     border-radius: 20px;
+}
+
+.a-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 70%;
+    gap: 10px;
+}
+
+.a-info h3 {
+    font-weight: bold;
+    color: #555;
+}
+
+.a-info p {
+    font-weight: 400; 
+}
+
+.a-left {
+    flex: 1 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+  }
+
+.a-card {
+    width: 60%;
+    height: 70vh;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.a-card.bg {
+    position: absolute;
+    background-color: #333;
+    top: 50px;
+    left: 50px;
+
+}
+
+
+.a-card img.a-img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 100;
 }

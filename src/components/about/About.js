@@ -7,7 +7,10 @@ function About() {
   return (
     <div className='a'>
         <div className='a-left'>
-
+            <div className='a-card bg'></div>
+            <div className='a-card'>
+                <img src="https://images.pexels.com/photos/3585047/pexels-photo-3585047.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500" alt="photographer-pic" className="a-img" />
+            </div>
         </div>
         <div className='a-right'>
             <div className='a-content'>
