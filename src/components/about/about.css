@@ -102,7 +102,7 @@
 }
 
 /* Media Querries */
-
+@media screen and (max-width: 480px) {
 .a{
     flex-direction: column;
     text-align: center;
@@ -124,3 +124,4 @@
   .a-right{
     padding: 20px;
   }
+}
