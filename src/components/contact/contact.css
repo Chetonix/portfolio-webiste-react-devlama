@@ -1,0 +1,90 @@
+.c {
+    /* display: flex;
+    flex-direction: row; */
+    height: 100vh;
+    position: relative;
+}
+.c-wrapper {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    position: relative;
+}
+
+.left-border {
+    background-color: #59b256;
+    width: 20px;
+    height: 100%;
+    /* display: absolute; */
+    margin-right: 10px;
+}
+
+.c-left {
+    flex: 1 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 35px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.c-right{
+    flex: 1 1;
+}
+
+.c-title {
+    font-size: 60px;
+    width: 80%;
+    font-weight: 700;
+}
+
+.c-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+  }
+
+.c-heading {
+    font-weight: 200;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.c-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow: hidden;
+}
+
+.text-bold {
+    font-weight: 400;
+}
+
+input {
+    width: 50%;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid black;
+    margin: 10px 0px;
+    font-size: 14px;
+    padding-left: 10px;
+  }
+  
+  textarea {
+    width: 90%;
+    margin: 10px 0px;
+    font-size: 14px;
+    padding-left: 10px;
+  }
+  
+  button {
+    border: none;
+    padding: 15px;
+    background-color: #59b256;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+  }
