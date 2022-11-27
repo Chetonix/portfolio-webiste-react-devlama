@@ -93,6 +93,30 @@ h1.i-name {
     position: absolute;
 }
 
+/* Media Querries */
+
+@media screen and (max-width: 480px) {
+    .i {
+      flex-direction: column;
+    }
+  
+    .i-right, .i-bg, .i-img {
+        height: 100%;
+    }
+    .i-left-wrapper{
+    
+      padding: 10px;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      height: 100%;
+    }
+  
+    p.i-desc{
+      display: none;
+    }
+    
+  }
 
 
 

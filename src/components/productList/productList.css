@@ -35,3 +35,19 @@
     flex-wrap: wrap;
     justify-content: space-between;
   }
+
+  /* Media Querries */
+
+  @media screen and (max-width: 480px) {
+    .pl {
+      padding: 10px;
+    }
+  
+    .product-title {
+      width: 100%;
+    }
+  
+    .pl-desc {
+      display: none;
+    }
+  }

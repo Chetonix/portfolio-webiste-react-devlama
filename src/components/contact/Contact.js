@@ -2,9 +2,16 @@ import "./contact.css";
 import phone from "../../img/phone.png";
 import email from "../../img/email.png";
 import address from "../../img/address.png";
-import React from 'react';
+import React, { useRef } from 'react';
 
 const Contact = () => {
+
+    const formRef = useRef();
+
+    const handleSubmit = e => {
+        e.preventDefault();
+    }
+
   return (
     <div className="c">
         <div className="c-wrapper">
@@ -26,7 +33,7 @@ const Contact = () => {
             </div>
             <div className="c-right">
                 <p className="c-heading"><span className="text-bold">What's your story?</span> Get in touch. Always available for freelancing if the right project comes along me.</p>
-                <form type="submit" className="c-form">
+                <form ref={formRef} onSubmit={handleSubmit} className="c-form">
                     <input type="text" placeholder="Name" name="user_name" />
                     <input type="text" placeholder="Subject" name="user_subject" />
                     <input type="text" placeholder="Email" name="user_email" />
